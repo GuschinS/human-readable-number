@@ -1,7 +1,6 @@
 module.exports = function toReadable(number) {
-    const { ToWords } = require('to-words');
-    const toWords = new ToWords();
-    return toWords.convert(number).toLowerCase();
+    const numWords = require('num-words');
+    return numWords(number).split(' and ').join(' ');
 }
 
 
@@ -16,3 +15,8 @@ module.exports = function toReadable(number) {
     // return numberToWords.toWords(number).split('-').join(' ');
 
     // module.exports(265)
+
+
+    // const { ToWords } = require('to-words');
+    // const toWords = new ToWords();
+    // return toWords.convert(number).toLowerCase();
