@@ -1,5 +1,11 @@
+
+
+
+
 module.exports = function toReadable(number) {
     const numberToWords = require('number-to-words');
-    return numberToWords.toWords(number).split('-').join(' ');
-}
+    console.log(numberToWords.toWords(number).split('-').join(' '));
+    // return numberToWords.toWords(number).split('-').join(' ');
 
+}
+module.exports(265)
