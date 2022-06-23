@@ -25,6 +25,7 @@
     "colors": "^1.4.0",
     "mkdirp": "^0.5.4",
     "mocha": "^6.2.2",
+    "num-words": "^1.2.2",
     "number-to-words": "^1.2.4",
     "semver": "^6.3.0",
     "to-words": "^3.2.0"
